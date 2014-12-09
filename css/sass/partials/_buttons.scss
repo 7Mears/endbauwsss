@@ -1,0 +1,11 @@
+.more-link {
+  background: $button-bg;
+  color: $button-color;
+  padding: 12.5px 25px;
+  border-radius: $rad;
+
+  &:hover {
+    background: $button-bg--hover;
+    color: $button-color--hover;
+  }
+}

@@ -1,0 +1,18 @@
+.site-branding {
+  float: left;
+}
+
+.main-navigation {
+  ul {
+    float: right;
+  }
+  li {
+    display: inline-block;
+    margin-left: $pad;
+    margin-top: ($pad / 2);
+  }
+}
+
+.active {
+  text-decoration: underline;
+}

@@ -1,0 +1,37 @@
+html, body { height: 100%; }
+
+body {
+  background: $body-bg;
+}
+
+a,
+a:visited {
+  color: $link-color;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $link-color--hover;
+}
+
+// Content Wrapper
+.site-header,
+.home-hero,
+.home-about,
+.site-footer {
+  width: $wrap;
+  margin: 0 auto;
+}
+
+// Transitions
+a,
+.more-link {
+  transition: 0.4s ease;
+}
+
+// Clear dem floats
+
+.site-header,
+.home-about {
+  @include clearfix();
+}

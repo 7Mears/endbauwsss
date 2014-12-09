@@ -1,0 +1,27 @@
+$white: #E7E1D4;
+$grey: #687074;
+$yellow: #FFF0A5;
+$black: #263238;
+$light-black: #384248;
+$teal: #70B7BA;
+
+// Main
+$text-color: $white;
+$link-color: $yellow;
+$link-color--hover: $teal;
+
+$text-color--alt: $black;
+$link-color--alt: $yellow;
+$link-color--hover--alt: $teal;
+
+// Background
+$body-bg: $black;
+$body-bg--alt: $white;
+
+// Elements
+$border-color: $grey;
+
+$button-bg: $black;
+$button-color: $white;
+$button-bg--hover: $grey;
+$button-color--hover: $teal;

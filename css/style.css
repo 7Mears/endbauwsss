@@ -1,0 +1,226 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+html {
+  font-size: 62.5%;
+  /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+  overflow-y: scroll;
+  /* Keeps page centered in all browsers regardless of content height */
+  -webkit-text-size-adjust: 100%;
+  /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+  -ms-text-size-adjust: 100%;
+  /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+  box-sizing: border-box;
+  /* Apply a natural box layout model to the document; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */ }
+
+*,
+*:before,
+*:after {
+  /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: inherit; }
+
+html, body {
+  height: 100%; }
+
+footer,
+header,
+main,
+nav,
+section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+@font-face {
+  font-family: 'Avenir Light';
+  font-weight: light;
+  src: url("../fonts/Avenir-Light.otf"); }
+@font-face {
+  font-family: 'Avenir';
+  font-weight: normal;
+  src: url("../fonts/Avenir-Medium.otf"); }
+body,
+button,
+input,
+select,
+textarea {
+  color: #E7E1D4;
+  font-family: "Avenir", Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  line-height: 1.8; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ubuntu", sans-serif; }
+
+h1 {
+  font-size: 42px; }
+
+h2 {
+  font-size: 36px; }
+
+h3 {
+  font-size: 32px; }
+
+h4 {
+  font-size: 28px; }
+
+h5 {
+  font-size: 24px; }
+
+h6 {
+  font-size: 20px; }
+
+.more-link {
+  background: #263238;
+  color: #E7E1D4;
+  padding: 12.5px 25px;
+  border-radius: 10px; }
+  .more-link:hover {
+    background: #687074;
+    color: #70B7BA; }
+
+.animated {
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite; }
+
+@-webkit-keyframes tada {
+  0% {
+    -webkit-transform: scale(1); }
+  10%, 20% {
+    -webkit-transform: scale(0.9) rotate(-3deg); }
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale(1.1) rotate(3deg); }
+  40%, 60%, 80% {
+    -webkit-transform: scale(1.1) rotate(-3deg); }
+  100% {
+    -webkit-transform: scale(1) rotate(0); } }
+@keyframes tada {
+  0% {
+    transform: scale(1); }
+  10%, 20% {
+    transform: scale(0.9) rotate(-3deg); }
+  30%, 50%, 70%, 90% {
+    transform: scale(1.1) rotate(3deg); }
+  40%, 60%, 80% {
+    transform: scale(1.1) rotate(-3deg); }
+  100% {
+    transform: scale(1) rotate(0); } }
+.tada {
+  -webkit-animation-name: tada;
+  animation-name: tada; }
+
+.site-branding {
+  float: left; }
+
+.main-navigation ul {
+  float: right; }
+.main-navigation li {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 25px; }
+
+.active {
+  text-decoration: underline; }
+
+html, body {
+  height: 100%; }
+
+body {
+  background: #263238; }
+
+a,
+a:visited {
+  color: #FFF0A5;
+  text-decoration: none; }
+
+a:hover {
+  color: #70B7BA; }
+
+.site-header,
+.home-hero,
+.home-about,
+.site-footer {
+  width: 1200px;
+  margin: 0 auto; }
+
+a,
+.more-link {
+  transition: 0.4s ease; }
+
+.site-header,
+.home-about {
+  content: "";
+  display: table; }
+
+#hero {
+  background: url(../img/eb-bg-ninja.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%; }
+
+.home-hero {
+  padding: 50px; }
+
+.home-hero--welcome {
+  width: 500px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center; }
+  .home-hero--welcome p:first-child {
+    text-shadow: 1px 1px 2px #263238;
+    margin-bottom: 50px; }
+
+.home-hero--bottom {
+  position: absolute;
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  left: 0; }
+
+#about {
+  color: #263238;
+  background: #E7E1D4; }
+
+.home-about {
+  padding: 50px 0; }
+  .home-about img {
+    max-width: 40%;
+    margin-left: 10%;
+    border-radius: 10px;
+    height: auto;
+    float: right; }
+
+.home-about--content {
+  width: 50%;
+  float: left; }
+  .home-about--content p {
+    margin-bottom: 50px; }
+
+/*# sourceMappingURL=style.css.map */
