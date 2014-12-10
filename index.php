@@ -17,7 +17,7 @@
       </div>
 
       </div>
-    </section><!-- /hero -->
+    </section> <!-- /hero -->
 
 <?php include("about.php"); ?>
 

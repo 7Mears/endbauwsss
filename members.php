@@ -13,7 +13,7 @@
         </div>
 
       </div>
-    </section><!-- /hero -->
+    </section> <!-- /hero -->
 
     <section id="aboutPage">
       <div class="about-content wrap">
@@ -72,6 +72,6 @@
 
           </div>
 
-    </section><!-- /about -->
+    </section> <!-- /about -->
 
 <?php include("footer.php"); ?>
