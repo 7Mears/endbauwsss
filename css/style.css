@@ -96,6 +96,11 @@ h6 {
     background: #687074;
     color: #70B7BA; }
 
+.site-title {
+  font-weight: 300; }
+  .site-title span {
+    font-weight: 700; }
+
 .site-branding {
   float: left; }
 
