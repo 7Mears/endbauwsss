@@ -46,22 +46,12 @@
 
 .home-about {
   padding: $pad 0;
-
-  img {
-    max-width: 30%;
-    margin-left: 10%;
-    border-radius: $rad;
-    height: auto;
-    float: right;
-  }
 }
 
 .home-about--content {
-  width: 60%;
-  float: left;
+
   p {
     margin-bottom: $pad;
-
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;

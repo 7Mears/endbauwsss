@@ -18,9 +18,14 @@ a:hover {
 .site-header,
 .home-hero,
 .home-about,
+.home-portfolio,
 .site-footer {
   width: $wrap;
   margin: 0 auto;
+
+  @media screen and (max-width: $break-large) {
+    width: 100%;
+  }
 }
 
 // Transitions
@@ -32,6 +37,7 @@ a,
 // Clear dem floats
 
 .site-header,
-.home-about {
+.home-about,
+.home-portfolio {
   @include clearfix();
 }
