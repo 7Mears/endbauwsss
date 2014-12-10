@@ -1,0 +1,77 @@
+@media screen and (max-width: $break-large) {
+  .site-header,
+  .home-hero,
+  .home-about,
+  .home-portfolio,
+  .home-contact,
+  .site-footer,
+  .wrap {
+    width: 100%;
+  }
+
+  .grid figure {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: $break-medium) {
+  .home-hero--welcome {
+    width: 100%;
+  }
+
+  .home-about--content p {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+
+  .site-branding,
+  .main-navigation {
+    float: none;
+    text-align: center;
+  }
+
+  .main-navigation {
+    ul {
+      float: none;
+    }
+
+    li {
+      margin: 0 12.5px;
+    }
+  }
+
+  .grid figure {
+    width: 96%;
+  }
+
+  .about-content figure {
+    width: 98%;
+  }
+
+}
+
+@media screen and (max-width: $break-small) {
+  body {
+    font-size: 16px;
+  }
+
+  h3,
+  p {
+    text-align: center;
+  }
+
+  .home-hero--bottom,
+  .main-navigation {
+    display: none;
+  }
+
+  .more-link {
+    display: block;
+    text-align: center;
+  }
+
+  .site-footer span {
+    display: block;
+  }
+}

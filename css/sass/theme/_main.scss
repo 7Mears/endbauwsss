@@ -20,13 +20,10 @@ a:hover {
 .home-about,
 .home-portfolio,
 .home-contact,
-.site-footer {
+.site-footer,
+.wrap {
   width: $wrap;
   margin: 0 auto;
-
-  @media screen and (max-width: $break-large) {
-    width: 100%;
-  }
 }
 
 // Transitions
@@ -39,6 +36,7 @@ a,
 
 .site-header,
 .home-about,
-.home-portfolio {
+.home-portfolio,
+.about-content {
   @include clearfix();
 }

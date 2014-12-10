@@ -128,17 +128,10 @@ a:hover {
 .home-about,
 .home-portfolio,
 .home-contact,
-.site-footer {
+.site-footer,
+.wrap {
   width: 1200px;
   margin: 0 auto; }
-  @media screen and (max-width: 1200px) {
-    .site-header,
-    .home-hero,
-    .home-about,
-    .home-portfolio,
-    .home-contact,
-    .site-footer {
-      width: 100%; } }
 
 a,
 .more-link {
@@ -146,7 +139,8 @@ a,
 
 .site-header,
 .home-about,
-.home-portfolio {
+.home-portfolio,
+.about-content {
   content: "";
   display: table; }
 
@@ -218,7 +212,6 @@ a,
   position: relative;
   margin: 0 auto;
   padding: 1em 0 4em;
-  max-width: 1200px;
   list-style: none;
   text-align: center; }
 
@@ -341,6 +334,49 @@ figure.effect-boss:hover p {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 
+#about-hero {
+  background: #E7E1D4;
+  color: #263238; }
+
+.about-hero {
+  padding: 50px; }
+
+.about-hero--welcome {
+  text-align: center; }
+  .about-hero--welcome h4 {
+    display: block;
+    margin-top: 50px; }
+  .about-hero--welcome p {
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto; }
+
+#aboutPage {
+  background: url(../img/about-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+
+.about-content {
+  padding: 50px 2%;
+  text-align: center; }
+  .about-content .fa {
+    padding: 0 5px; }
+  .about-content figure {
+    width: 48%;
+    float: left;
+    margin: 2% 1%; }
+    .about-content figure img {
+      max-width: 100%;
+      height: 100%; }
+    .about-content figure h4 {
+      margin-top: -50px;
+      text-shadow: -1px -1px 10px #263238;
+      text-decoration: underline; }
+  .about-content figcaption {
+    font-weight: 300; }
+    .about-content figcaption span {
+      font-weight: 700; }
+
 .site-footer {
   padding: 50px 0;
   text-align: center; }
@@ -356,5 +392,60 @@ figure.effect-boss:hover p {
   text-align: center;
   background: #263238;
   border-radius: 50%; }
+
+@media screen and (max-width: 1200px) {
+  .site-header,
+  .home-hero,
+  .home-about,
+  .home-portfolio,
+  .home-contact,
+  .site-footer,
+  .wrap {
+    width: 100%; }
+
+  .grid figure {
+    width: 40%; } }
+@media screen and (max-width: 800px) {
+  .home-hero--welcome {
+    width: 100%; }
+
+  .home-about--content p {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1; }
+
+  .site-branding,
+  .main-navigation {
+    float: none;
+    text-align: center; }
+
+  .main-navigation ul {
+    float: none; }
+  .main-navigation li {
+    margin: 0 12.5px; }
+
+  .grid figure {
+    width: 96%; }
+
+  .about-content figure {
+    width: 98%; } }
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 16px; }
+
+  h3,
+  p {
+    text-align: center; }
+
+  .home-hero--bottom,
+  .main-navigation {
+    display: none; }
+
+  .more-link {
+    display: block;
+    text-align: center; }
+
+  .site-footer span {
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */
