@@ -9,7 +9,6 @@
   padding: ($pad * 2) 0;
 
   h3 {
-    padding-bottom: $pad;
     text-align: center;
   }
 }
@@ -29,7 +28,7 @@
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 10px 2%;
+  margin: 2%;
   max-height: 360px;
   width: 29.333%;
   background: $figure-bg;
@@ -40,8 +39,8 @@
 .grid figure img {
   position: relative;
   display: block;
-  min-height: 100%;
-  max-width: 100%;
+  height: 100%;
+  width: 100%;
   opacity: 0.3;
 }
 
@@ -82,7 +81,7 @@
 }
 
 .grid figure h4 span {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .grid figure h4,
@@ -128,7 +127,7 @@ figure.effect-boss figcaption {
 figure.effect-boss h4 {
   position: relative;
   overflow: hidden;
-  padding: 0.5em 0;
+  
 }
 
 figure.effect-boss h4::after {

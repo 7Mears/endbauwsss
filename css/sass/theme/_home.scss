@@ -23,7 +23,7 @@
   text-align: center;
 
   p:first-child {
-    text-shadow: 1px 1px 2px $text-color--alt;
+    text-shadow: 10px 3px 7px $text-color--alt;
     margin-bottom: $pad;
   }
 }
@@ -45,7 +45,7 @@
 }
 
 .home-about {
-  padding: $pad 0;
+  padding: $pad 2%;
 }
 
 .home-about--content {
@@ -55,5 +55,23 @@
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
+  }
+}
+
+//contact
+
+#contact {
+  color: $black;
+  background: $body-bg--alt;
+}
+
+.home-contact {
+  padding: $pad 2%;
+}
+
+.home-contact--content {
+
+  p {
+    margin-bottom: $pad;
   }
 }
