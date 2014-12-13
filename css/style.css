@@ -372,11 +372,10 @@ figure.effect-boss:hover p {
     margin: 2% 1%; }
     .about-content figure img {
       max-width: 100%;
-      height: 100%; }
+      max-height: 100%; }
     .about-content figure h4 {
       margin-top: -50px;
-      text-shadow: -1px -1px 10px #263238;
-      text-decoration: underline; }
+      text-shadow: -1px -1px 10px #263238; }
   .about-content figcaption {
     font-weight: 300; }
     .about-content figcaption span {
