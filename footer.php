@@ -4,8 +4,8 @@
 
     <div class="home-contact--content">
       <h3>Do you have a mission for us?</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id neque nisl. Curabitur sed diam quis velit interdum pretium sed in tellus.</p>
-      <a href="mailto:contact@endboss.ca" class="more-link"><i class="fa fa-envelope-o"></i> Alert the crew</a>
+      <p>All works of art start with an idea. From your first discussion with the End Boss team, to the day the site goes live, our goal will be to make your dream a reality. What do you want to accomplish with your website?</p>
+      <a href="mailto:contact@endboss.ca" class="more-link"><i class="fa fa-envelope-o"></i> Get in touch with us</a>
     </div>
 
   </div>

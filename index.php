@@ -8,7 +8,7 @@
     <div class="home-hero">
 
       <div class="home-hero--welcome">
-        <p>We are a creative collective of hand picked artists, coders, and writers on a quest.</p>
+        <p>We are a creative collective of handpicked artists, coders, and writers on a quest.</p>
         <a href="#about" class="more-link">What is this quest you speak of?</a>
       </div>
 

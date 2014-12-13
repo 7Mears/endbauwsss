@@ -8,8 +8,8 @@
       <div class="about-hero wrap">
 
         <div class="about-hero--welcome">
-          <h4>Something something meet the crew</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id neque nisl.</p>
+          <h4>The collective</h4>
+          <p>The End Boss collective is made up of creative people with many different skills and interests, but we all have one thing in common: we want to bring websites to life. </p>
         </div>
 
       </div>

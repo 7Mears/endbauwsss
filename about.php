@@ -2,9 +2,9 @@
   <div class="home-about">
 
     <div class="home-about--content">
-      <h3>Painting the internet</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id neque nisl. Curabitur sed diam quis velit interdum pretium sed in tellus. Curabitur rhoncus, diam ut ultrices accumsan, turpis nisl mattis metus, sit amet facilisis risus nunc eu est. Cras egestas nec massa eget sollicitudin. Nunc mi nunc, venenatis in lacinia id, pretium ac arcu.</p>
-      <a href="members.php" class="more-link"><i class="fa fa-arrow-right"></i> Meet the crew</a>
+      <h3>Painting the Internet</h3>
+      <p>Our quest is to beautify the online world. Websites are works of art, and the world wide web is a canvas. We believe there is no excuse for an ugly website, and that all sites should deliver a smooth user experience. So much of our lives are online now, whether we're showcasing our portfolio, marketing to potential customers, or telling a story about our business, so we want to make that space a beautiful place. </p>
+      <a href="members.php" class="more-link"><i class="fa fa-arrow-right"></i> Meet the team</a>
     </div>
 
   </div>

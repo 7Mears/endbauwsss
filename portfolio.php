@@ -1,6 +1,6 @@
 <section id="portfolio">
   <div class="home-portfolio">
-    <h3>Completed quests</h3>
+    <h3>Collected works</h3>
 
     <div class="grid">
 
