@@ -16,8 +16,8 @@
         <a href="#about"><i class="fa fa-angle-double-down"></i></a>
       </div>
 
-      </div>
-    </section> <!-- /hero -->
+    </div>
+  </section> <!-- /hero -->
 
 <?php include("about.php"); ?>
 

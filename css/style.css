@@ -89,7 +89,7 @@ h6 {
 
 .more-link {
   background: #263238;
-  color: #E7E1D4;
+  color: #FFF0A5;
   padding: 12.5px 25px;
   border-radius: 10px; }
   .more-link:hover {
@@ -409,7 +409,7 @@ figure.effect-boss:hover p {
     width: 100%; }
 
   .grid figure {
-    width: 40%; } }
+    width: 46%; } }
 @media screen and (max-width: 800px) {
   .home-hero--welcome {
     width: 100%; }
